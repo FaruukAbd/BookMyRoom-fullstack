@@ -1,0 +1,133 @@
+.image{
+    width:100%;
+    height:600px
+    
+}
+.loginmode{
+    width: 100%;
+    height: 93vh;
+}
+.header{
+    position: relative;
+}
+.text{
+    position: absolute;
+    top:250px;
+    color: white;
+    left: 117px;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+.btn{
+    width: 175px;
+    height: 50px;
+    margin: 22px 0px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.btn:hover{
+    
+    background-color: white;
+    color: black;
+}
+
+.headerSearch{
+    height: 100px;
+    background-color: white;
+    border: 3px solid rgb(51, 120, 120);
+    background-color: #dfebfd;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+    max-width: 1124px;
+    left: 200px;
+}
+.headerIcon{
+    color:rgb(51, 120, 120);
+    font-size: 24px;
+    
+    padding-left: 14px;
+}
+.ItemNamee>span{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.headerSearchItem{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    /* border-right: 2px solid rgb(51, 120, 120); */
+
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    height: 30px;
+   
+    cursor:text;
+
+}
+.headerSearchText{
+    color: darkslategray;
+    cursor: pointer;
+    font-size: 18px;
+    /* border-right: 2px solid rgb(51, 120, 120); */
+    padding-right: 18px;
+    background-color: white;
+    padding:  8px 4px;
+    
+}
+.date{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+.options{
+    z-index: 2;
+    /* padding-left: 20px; */
+    position:absolute;
+    top: 70px;
+    right:120px;
+    border: 2px solid gray;
+    background-color: white;;
+    color: gray;
+    border-radius: 5px;
+}
+.optionsItem{
+    margin: 10px 10px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.optionCounter{
+   display: flex;;
+   gap: 20px;
+}
+.optionsCounterBtn{
+    cursor: pointer;
+}
+
+.headerBtn{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(51, 120, 120);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}

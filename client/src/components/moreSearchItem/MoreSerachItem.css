@@ -1,0 +1,65 @@
+.ItemContainer{
+    height: 550px;
+    width: 380px;
+    /* border: 2px solid yellow; */
+    position:relative;
+}
+.ItemImage{
+    width: 380px;
+    height: 380px;
+    cursor: pointer;
+}
+.ItemImage:hover{
+    opacity: 0.6;
+}
+.ItemPrice{
+    position: absolute;
+    top: 315px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 4px;
+}
+.ItemName{
+   margin-left: 10px;
+   font-size: 30px;
+   margin-bottom: 18px;
+   height: 30px;
+}
+.ItemDesc{
+    /* margin-left: 20px; */
+    font-size: 12px;
+    display: flex;
+    gap:0px 40px;
+    /* margin-top: 10px; */
+    /* justify-content: center; */
+    align-items: center;
+    height: 50px;
+}
+.ItemIcon{
+    margin:0px 10px;
+    font-size: 20px;
+}
+.ItemDesccc{
+   font-size: 16px;
+}
+.ItemBtn{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 50px;
+    width: 180px;
+    background-color: rgb(51, 120, 120);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}

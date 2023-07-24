@@ -1,0 +1,86 @@
+*{
+    margin:0px;
+    box-sizing:border-box;
+}
+
+.navbar{
+    height: 50px;
+    background-color:white;
+    display: flex;;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+  
+    
+}
+.userr{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.username{
+    color: black;
+    font-size: 32px;
+    cursor: pointer;
+}
+.userIcon{
+    color: black;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+.username:hover{
+    color: rgb(51, 120, 120);
+}
+.profiletab{
+    /* border: 2px solid red; */
+    height: 200px;
+    width: 160px;
+    background-color:white;
+    position: absolute;
+    top: 50px;
+    right: 16px;
+}
+.row{
+    height: 50px;
+    color: black;
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 15px;
+    padding-left: 10px;
+    cursor: pointer;
+    /* font-size: 18px; */
+}
+.row:hover{
+    background-color: rgb(218, 217, 217);
+}
+.navContainer{
+    width: 100%;
+    /* max-width: 1024px; */
+    margin: 0 20px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.logo{
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    color:rgb(51, 120, 120);
+    cursor: pointer;
+}
+.navButton{
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  background-color:rgb(51, 120, 120) ;
+}

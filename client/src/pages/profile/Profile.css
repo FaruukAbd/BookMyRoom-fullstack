@@ -1,0 +1,252 @@
+
+.upperbar{
+  height: 150px;
+  /* border: 2px solid red; */
+   position: sticky;
+  display: flex;
+  top: 0;
+  z-index: 1;
+}
+.corner{
+   /* border: 2px solid black; */
+   height: 150px;
+   width: 250px;
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   align-items: center;
+   /* gap: 20px; */
+   border-right: 2px solid white;
+
+}
+
+.profileimage{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.profilename{
+    font-size: 25px;
+    margin-top: 3px;
+    color: black;
+}
+.webname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #dfebfd;
+}
+.webname>span{
+    font-size: 40px;
+    width: 80%;
+    text-align: center;
+    background-color:white;
+    border-radius: 12px;
+}
+.sidebar{
+    width: 216px;
+    height: 560px;
+    border-right: 2px solid rgb(241, 239, 239);
+    border-top: 2px solid rgb(218, 217, 217);
+    position: sticky;
+    top: 30px;
+   
+
+}
+.rows{
+    height: 50px;
+    /* background-color:aquamarine; */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.rows:hover{
+    background-color: #dfebfd;
+}
+.log{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 216px;
+}
+.profileContent{
+  position:absolute;
+  top: 170px;
+  left: 240px;
+  /* background-color:aquamarine; */
+  height: 75%;
+  width: 82%;
+ overflow:auto;
+}
+.bookingContent{
+     position:absolute;
+    top: 170px;
+    left: 240px;
+    /* background-color:blueviolet; */
+    height: 75%;
+    width: 82%;
+   
+}
+.editprofileContent{
+    /* background-color:chartreuse; */
+     position:absolute;
+    top: 170px;
+    left: 240px;
+    
+    height: 75%;
+    width: 82%;
+}
+.on{
+    background-color:#dfebfd;
+}
+.profileContent>h3{
+    font-size: 30px;
+    margin: 30px;
+    background-color: #dfebfd;
+    padding: 20px ;
+    border-radius: 12px;
+}
+.editprofileContent>h3{
+    font-size: 30px;
+    margin: 30px;
+    background-color: #dfebfd;
+    padding: 20px ;
+    border-radius: 12px;
+}
+
+.field{
+    height: 50px;
+    background-color: white;
+    margin: 10px 40px;
+    display: flex;
+   
+    font-size: 24px;
+    align-items: center;
+   background-color:aliceblue;
+   padding-left: 20px;
+   border-radius: 12px;
+   
+}
+.fieldname{
+  width: 180px;
+}
+.actname{
+    font-weight: bold;
+}
+.inuputfield{
+    height: 40px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    width: 250px;
+}
+.butttons{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 0px 50px;
+    height: 50px;
+}
+.profilepic{
+    background-color: aliceblue;
+    /* width: 400px; */
+    font-size: 24px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    /* margin-top: 20px; */
+    height: 50px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    padding-left: 10px;
+}
+.inputpic{
+   font-size: 18px;
+}
+.btnn
+{
+    background-color: rgb(50,120,120);
+    width: 150px;
+    font-size: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.bookingContent>h3{
+    font-size: 30px;
+    margin: 30px;
+    background-color: #dfebfd;
+    padding: 20px ;
+    border-radius: 12px;
+}
+.bookingheader{
+    font-size: 20px;
+    margin:0px 30px;
+    margin-top: 10px;
+    background-color: #dfebfd;
+    padding: 10px 20px ;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: rows;
+    /* justify-content: space-around; */
+    gap: 10px;
+    
+}
+
+.bookings{
+     font-size: 16px;
+    margin:0px 30px;
+    margin-top: 10px;
+    background-color: #dfebfd;
+    padding: 10px  20px ;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: rows;
+    /* justify-content: space-around; */
+    gap: 10px;
+}
+.Id{
+    width: 250px;
+    /* border: 2px solid red; */
+}
+.checkin{
+    width: 120px;
+    /* border: 2px solid red; */
+}
+.checkout{
+    width: 120px;
+    /* border: 2px solid red; */
+}
+.hname{
+    width: 200px;
+    /* border: 2px solid red; */
+}
+.roomno{
+    width: 150px;
+    /* border: 2px solid red; */
+}
+.download{
+   background-color: green;
+   border: 2px solid green;
+   color: white;
+   cursor: pointer;
+
+}
+.cancel{
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    cursor: pointer;
+}

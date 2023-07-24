@@ -1,0 +1,101 @@
+
+.reserve {
+    width: 100vw;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.418);
+    position: fixed;
+    top: 0px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+  }
+  
+  .rContainer {
+    background-color: white;
+    padding: 20px;
+    position: relative;
+  }
+  .reserveTitle{
+    font-size: 22px;
+  }
+  .rClose {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+  }
+  .roomss{
+    height: 500px;
+    width: 600px;
+    overflow-y: scroll;
+    /* border: 2px solid red; */
+  }
+  .rItem {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    padding: 20px;
+  }
+  
+  .rInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .rTitle {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .rDesc {
+    font-weight: 300;
+  }
+  
+  .rMax {
+    font-size: 12px;
+  }
+  
+  .rPrice {
+    font-weight: 500;
+  }
+  
+  .rSelectRooms{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 10px;
+    color: gray;
+    background-color: ebf3ff;
+  }
+  
+  .room{
+    display: flex;
+    flex-direction: column;
+  }
+  .room>input{
+    cursor: pointer;
+  }
+  .rButton {
+    border: none;
+    padding: 10px 20px;
+    background-color:rgb(50, 120, 120);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .payment{
+    display: flex;
+    flex-direction: column;
+  }
+  .paypalbutton{
+    height: 20px;
+  }

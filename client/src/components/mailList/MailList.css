@@ -1,0 +1,58 @@
+.imagee{
+    margin-top: 40px;
+    width:100%;
+    height:500px;
+    
+}
+.maillist{
+    position: relative;
+    z-index: -1;
+    
+}
+.mailContainer{
+    position: absolute;
+    top: 55px;
+    left: 20px;
+    height: 475px;
+    width: 50%;
+    
+    background: whitesmoke;
+    opacity: 0.8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mailTitle{
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+.maildesc{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.mailInputContainer>input{
+    width: 380px;
+    height: 70px;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+  }
+  
+  .mailInputContainer>button{
+    height: 70px;
+    background-color: rgb(51, 120, 120);
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    font-size: 20px;
+  }

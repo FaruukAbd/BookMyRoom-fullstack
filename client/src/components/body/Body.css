@@ -1,0 +1,172 @@
+.bodyContainer{
+   margin-top: 54px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bodyText{
+    height: 245px;
+    /* border: 2px solid darkslategray; */
+    width: 1224px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+   
+}
+.Titile{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 6px;
+}
+.subTitile{
+    font-size: 20px;
+    /* font-weight: 700; */
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.bodyHotels{
+    /* height: 800px; */
+    /* border: 2px solid darkslategray; */
+    /* width: 1224px; */
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 45px 25px;
+    
+}
+.bodyHotel{
+    /* background-color: aqua; */
+    width: 300px;
+    height: 400px;
+    cursor: pointer;
+    
+} 
+.img{
+    height: 250px;
+    width: 300px;
+} 
+.hotelstar{
+  border: 2px solid white;
+  margin:4px;
+} 
+.hotelname{
+    border: 2px solid white;
+    /* margin:4px; */
+    /* background-color: rgb(248, 241, 241); */
+    height: 40px;
+    font-size: 23px;
+    font-weight: bold;
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+
+}
+.hotellocation{
+    border: 2px solid white;
+    /* margin:4px; */
+    height: 40px;
+    /* background-color: rgb(248, 241, 241); */
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #cacbcd;
+
+}
+.hotellocation:hover{
+    color:rgb(51,120,120);
+}
+.BodyIcon{
+    padding: 8px;
+}
+.LocationText{
+    font-size: 18px;
+    /* font-weight: bold; */
+}
+.hotelprice{
+    border: 2px solid white;
+    /* margin:4px; */
+    height: 40px;
+    /* background-color: rgb(248, 241, 241); */
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    font-size: 18px;
+}
+.hotelrating{
+    border: 2px solid white;
+    /* margin:14px 0px; */
+    padding-left:8px;
+    background-color: #ebf3ff;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: large;
+
+}
+.bodyLocations{
+    
+    /* border: 2px solid darkslategray; */
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 25px;
+    
+}
+.bodyLocation{
+    background-color: aqua;
+    height: 400px;
+    width: 300px;
+    /* width: 400px; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.place{
+    height: 400px;
+    width: 300px;
+}
+.place:hover{
+    opacity: 0.6;
+}
+.placeName{
+    position: absolute;
+    /* top: 200px;
+    left: 70px; */
+    font-size: 3rem;
+    color: white;
+}
+
+.bodyQuestions{
+    height: 200px;
+    /* border: 2px solid darkslategray; */
+    width: 1224px;
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 25px;
+}
+.bodyQuestion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(51, 120, 120);
+    border-radius: 30px;
+}
+.que{
+   font-size: 22px;
+   font-weight: bold;
+   margin: 10px;
+}
+.ans{
+  text-align: center;
+  margin: 0px 20px;
+}
